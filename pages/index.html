@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../assets/css/style.css" />
+    <title>Reweb</title>
+  </head>
+  <body>
+    <header>
+      <div class="img-topo">
+        <img
+          class="img"
+          src="https://reweb.com.br/assets/images/index-meta.svg"
+        />
+      </div>
+    </header>
+
+    <section>
+      <div class="banner-topo">
+        <div class="form">
+          <form
+            class="meu-form"
+            name="formulario"
+            method="post"
+          >
+            <h1>Solicite Cotação</h1>
+
+            <input
+              type="text"
+              id="nomeid"
+              placeholder="Nome"
+              required="required"
+              name="nome"
+            />
+
+            <input
+              type="email"
+              id="emailid"
+              placeholder="E-mail"
+              name="email"
+            />
+
+            <input type="text" id="cpfid" placeholder="CPF" name="cpf" />
+
+            <input
+              type="tel"
+              id="foneid"
+              placeholder="Telefone"
+              name="telefone"
+            />
+
+            <textarea placeholder="Mensagem"></textarea>
+
+            <input type="checkbox" id="check" name="check" />
+            <p>Aceita as políticas de privacidade?</p>
+
+            <input
+              type="submit"
+              class="enviar"
+              onclick="Enviar();"
+              value="Enviar"
+            />
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <main>
+      <div class="banner">
+        <img src="https://shortest.link/2ixz" alt="reweb" />
+        <h2 class="titulo-banner">Highlight 1</h2>
+        <p class="texto-banner">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt quas
+          dolor, sit animi doloribus, dolorem fugiat modi alias beatae labore
+          officiis amet voluptates iure quasi aliquam voluptas ipsam? Suscipit,
+          incidunt.
+        </p>
+      </div>
+      <div class="banner">
+        <img src="https://shortest.link/2ixz" alt="reweb" />
+        <h2 class="titulo-banner">Highlight 2</h2>
+        <p class="texto-banner">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt quas
+          dolor, sit animi doloribus, dolorem fugiat modi alias beatae labore
+          officiis amet voluptates iure quasi aliquam voluptas ipsam? Suscipit,
+          incidunt.
+        </p>
+      </div>
+      <div class="banner">
+        <img src="https://shortest.link/2ixz" alt="reweb" />
+        <h2 class="titulo-banner">Highlight 3</h2>
+        <p class="texto-banner">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt quas
+          dolor, sit animi doloribus, dolorem fugiat modi alias beatae labore
+          officiis amet voluptates iure quasi aliquam voluptas ipsam? Suscipit,
+          incidunt.
+        </p>
+      </div>
+    </main>
+
+    <div class="video">
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/gDnkFy6Avvo"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe>
+    </div>
+
+    <footer>Desenvolvido por Reweb - Priscila Souza</footer>
+
+    <script type="text/javascript">
+      function Enviar() {
+        let nome = document.getElementById("nomeid");
+
+        if (nome.value != "") {
+          alert(
+            "Obrigado sr(a) " +
+              nome.value +
+              " os seus dados foram encaminhados com sucesso"
+          );
+        }
+      }
+    </script>
+  </body>
+</html>

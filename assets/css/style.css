@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.img-topo {
+    text-align: center;
+    background: #2162cc
+}
+
+.img {
+    width: 10%;
+    height: 10%;
+    margin: 10px;
+}
+
+section {
+    background-color: #f0f0f0;
+}
+
+.banner-topo {
+    width: 100%;
+    background-image: url(https://shortest.link/2ixt);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.form {
+    display: table-caption;
+    background-color: #8a8a8a;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+input,
+textarea {
+    margin: 4px;
+    padding: 5px;
+    border: 1px solid #000;
+    border-radius: 3px;
+}
+
+textarea {
+    width: 90%;
+}
+
+.meu-form {
+    text-align: center;
+}
+
+#check,
+p {
+    display: inline;
+}
+
+.enviar {
+    display: block;
+    margin: 5px auto;
+    width: 60%;
+    color: #fff;
+    background-color: #333333;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.banner {
+    margin: 20px;
+    padding: 10px;
+}
+
+.titulo-banner,
+.texto-banner {
+    margin-top: 20px;
+}
+
+.video {
+    margin: 50px;
+    text-align: center;
+}
+
+footer {
+    background-color: #2162cc;
+    text-align: right;
+    color: #fff;
+    padding: 40px 30px 10px 10px;
+    height: 50px;
+}
